@@ -1,0 +1,82 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "What is my account balance?",
+                "Show me my account balance?",
+                "How much money is there in my account?"
+            ],
+            "responses": [
+                "You have 5000 rupees in your account",
+                "Your account balance is 10000 rupees"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Could you provide my account information",
+                "Provide my account info",
+                "What is my account information?",
+                "account information?"
+            ],
+            "responses": [
+                "Your account no is 12345678",
+                "Your account no is 345678 - account balance - 6000"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "What does investing mean?",
+                "How to start investing?"
+            ],
+            "responses": [
+                "Investing is the process of buying assets that increase in value over time and provide returns in the form of income payments or capital gains.",
+                "An investment can refer to any mechanism used for generating future income. This includes the purchase of bonds, stocks, or real estate property, among other examples."
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "What is credit card?",
+                "How does credit card work?"
+
+            ],
+            "responses": [
+                "Credit cards offer you a line of credit that can be used to make purchases, balance transfers and/or cash advances and requiring that you pay back the loan amount in the future."
+
+            ]
+        }
+    ]
+}
